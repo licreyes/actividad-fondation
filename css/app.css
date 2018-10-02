@@ -1,0 +1,52 @@
+.border-bottom{
+    
+    border-bottom: 1px solid darkgrey;
+}
+
+.border-right{
+    border-right: 1px solid darkgrey;
+}
+
+.imagenes{
+    padding: 10px;
+}
+
+.historial > li{
+    padding: 8px 0;
+}
+
+.historial> li >a {
+    width: 95%;
+    text-align: center;
+    /* padding: 0 12px; */
+    background-color: tomato;
+    display: block;
+    color: white;
+    border-radius: 15px;
+}
+
+.historial> li >a:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+.conten-document{
+    padding: 12px;
+}
+.user{
+    text-align: center;
+    width: 100%;
+}
+.user >i{
+    font-size: 48px;
+}
+h5{
+    font-weight: bold;
+}
+
+@media screen and (max-width:840px){
+    .puff{
+        display: none;
+    }
+}
